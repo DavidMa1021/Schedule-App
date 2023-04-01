@@ -27,13 +27,13 @@ export default function TaskListComponent() {
   const userData = useSelector(state => state.userData.user)
 
   return (
-    <div className='container pt-5'>
+    <div className='container-sm pt-5'>
 
       <div className='row my-5'>
         <h1 className='p-4' id='title'>MIS TAREAS</h1>
       </div>
 
-      <div className='row'>
+      <div className='row justify-content-center m-3 m-md-0'>
 
         {tasks.map((task) => {
           return (<TaskCardComponent taskData={task} setModalState={setModalState} />)

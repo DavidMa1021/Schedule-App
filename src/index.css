@@ -14,6 +14,8 @@
   --font-size-l: 30px;
   --font-size-xl: 50px;
 
+  
+
   --font-family-monserrat: 'Montserrat';
   --font-family-poppins: 'Poppins';
 }
@@ -138,6 +140,46 @@
   position: absolute;
   z-index: 0;
 
+}
+
+@media screen  and (max-width: 576px){
+
+  #title{
+    font-size: var(--font-size-l);
+    color: var(--primary);
+  }
+
+  #card-subtitle{
+    font-size: var(--font-size-m);
+  }
+
+  .navbar{
+    background: var(--primary);
+  }
+  
+  
+}
+
+@media screen  and (max-width: 992px){
+
+  #title{
+    font-size: var(--font-size-l);
+    color: var(--primary);
+  }
+
+  #card-subtitle{
+    font-size: var(--font-size-m);
+  }
+
+  #background-shape{
+    display: none;
+  }
+
+  .navbar{
+    background: var(--primary);
+  }
+  
+  
 }
 
 

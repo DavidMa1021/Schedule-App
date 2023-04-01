@@ -52,7 +52,7 @@ const Overlay = styled.div`
 `;
 
 const ModalContainer = styled.div`
-    max-width:950px;
+    max-width:850px;
     min-height:200px;
     background: #FFFFF3;
     position: relative;
