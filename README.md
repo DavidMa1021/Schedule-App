@@ -1,3 +1,42 @@
+## Schedule-App
+***
+Se creo este proyecto para dar solución a la prueba diagnóstica como rol de desarrollador front end. Es una app desarrollada en React que consume una API de tareas, en ella se pueden consultar los detalles de cada tarea, ademas de datos del usuario encargada de ella. Se incluye una optimización para pantallas de dispositivos móviles mediante el uso de Bootstrap.   
+
+
+## Librerias utilizadas:
+***
+Se incluyeron librerias como :
+
+* [Redux Toolkit](https://redux-toolkit.js.org/): version 8.0.5
+* [Bootstrap](https://getbootstrap.com/): version 5.2.3
+* [React Router DOM](https://reactrouter.com/en/main): version 6.10.0
+* [Styled Components](https://styled-components.com/): version 5.3.9
+* [Font Awesome](https://fontawesome.com/v5/docs/web/use-with/react): version 6.4.0
+
+
+* [NPM](https://docs.npmjs.com/getting-started): version 8.15.0 
+
+
+## Instalación:
+***
+Inicialmente es necesario clonar el repositorio mediante el siguiente comando 
+```
+$ git clone https://github.com/DavidMa1021/Schedule-App.git
+```
+Dentro del directorio raiz del proyecto se ejecuta los comandos para instalar las dependencias necesarias, en este caso con los comandos:
+```
+$ npm install
+
+```
+
+Finalmente para correr el proyecto utiliza el comando: 
+```
+$ npm start
+```
+***
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
