@@ -12,7 +12,7 @@ export default function UserInformationComponent({ user}) {
                 </div>
                 <div className="col-md-7">
                     <div className="card-body ">
-                        <h5 className="card-title mb-3" id='title'>Nombre: {user.name}</h5>
+                        <h5 className="card-title mb-3" id='card-subtitle'>Nombre: {user.name}</h5>
                         <h6 className="card-subtitle mb-4 " id='price'>Username: {user.username}</h6>
                         <p className="card-text" id='text'>Correo electrónico: {user.email}</p>
                         <p className="card-text" id='text'>Dirección: Calle {user.address.street} {user.address.suite} - {user.address.city}</p>

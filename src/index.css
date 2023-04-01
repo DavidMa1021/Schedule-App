@@ -10,9 +10,9 @@
   --filter: rgba(76, 70, 61, 0.698);
 
   --font-size-s: 12px;
-  --font-size-m: 15px;
-  --font-size-l: 20px;
-  --font-size-xl: 30px;
+  --font-size-m: 18px;
+  --font-size-l: 30px;
+  --font-size-xl: 50px;
 
   --font-family-monserrat: 'Montserrat';
   --font-family-poppins: 'Poppins';
@@ -23,19 +23,31 @@
   font-family: var(--font-family-monserrat);
   font-size: var(--font-size-xl);
   letter-spacing: 0px;
-  font-weight: 500;
-  color: var(--primary);
+  font-weight: 800;
+  color: var(--light);
   font-style: normal;
+  position: relative;
 }
 
 
 #subtitle {
   font-family: var(--font-family-poppins);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-m);
   letter-spacing: 0px;
   font-weight: 500;
   font-style: bold;
 
+
+}
+
+#card-subtitle {
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-l);
+  letter-spacing: 0px;
+  font-weight: 800;
+  color: var(--secondary);
+  font-style: normal;
+  position: relative;
 }
 
 #text {
@@ -119,6 +131,13 @@
   padding: 0.75rem 1.5rem;
   background-color: rgb(219,177,188);
   border-radius: 0.5rem;
+}
+
+#background-shape{
+
+  position: absolute;
+  z-index: 0;
+
 }
 
 

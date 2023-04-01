@@ -27,11 +27,10 @@ export default function TaskListComponent() {
   const userData = useSelector(state => state.userData.user)
 
   return (
-    <div className='container'>
+    <div className='container pt-5'>
 
-      <div className='row'>
-
-        <h1 id='title'>MIS TAREAS</h1>
+      <div className='row my-5'>
+        <h1 className='p-4' id='title'>MIS TAREAS</h1>
       </div>
 
       <div className='row'>
