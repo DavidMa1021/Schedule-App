@@ -24,7 +24,7 @@ const CloseButton = styled.button`
     position: absolute;
     top:20px;
     right:20px;
-    background: rgba(210, 105, 30, 1);
+    background: rgba(143,149,211, 1);
     border:none;
     cursor: pointer;
     transition: .2s ease all;
@@ -32,8 +32,9 @@ const CloseButton = styled.button`
     padding:8px;
     width: 40px;
     height: 40px;
+    border-radius: 0.5rem;
     &:hover{
-        background: rgba(76, 70, 61, 1);
+        background: rgba(219,177,188, 1);
     }
 `;
 
@@ -57,4 +58,5 @@ const ModalContainer = styled.div`
     position: relative;
     box-shadow: 4.68611px 4.68611px 6.69444px rgba(0, 0, 0, 0.25);
     padding:20px;
+    border-radius: 0.5rem;
     `;

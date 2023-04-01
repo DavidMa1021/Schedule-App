@@ -21,16 +21,16 @@ export default function TaskCardComponent({ taskData, setModalState }) {
 
     return (
         <>
-            <div className="card mx-3 my-2" style={{ maxWidth: '1920px' }} onClick={()=>{viewUser(taskData.userId)}}>
+            <div className="card mx-3 my-2 shadow" style={{ maxWidth: '1920px' }} onClick={()=>{viewUser(taskData.userId)}}>
                 <div className="row g-0 justify-content-center align-items-center">
                     <div className="col-md-1">
-                        <p><strong>{taskData.id}</strong></p>
+                        <p id="title"><strong>{taskData.id}</strong></p>
                     </div>
                     <div className="col-md-11">
                         <div className="card-body">
-                            <h5 className="card-title">{taskData.title}</h5>
-                            <p className="card-text">{taskData.body}</p>
-                            <p className="card-link" ><strong>Ver responsable</strong></p>
+                            <h5 className="card-title" id="subtitle">{taskData.title}</h5>
+                            <p className="card-text" id="text">{taskData.body}</p>
+                            <button className="btn" id="action"><strong>Ver responsable</strong></button>
                         </div>
                     </div>
                 </div>
